@@ -1,0 +1,353 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img1 {
+    background-image: url(assetsF1Team/1.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.img2 {
+    background-image: url(assetsF1Team/asset\ 2.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.img3 {
+    background-image: url(assetsF1Team/asset\ 3.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .img1 {
+        height: 60vh;
+    }
+
+    .img2 {
+        height: 60vh;
+    }
+
+    .img3 {
+        height: 60vh;
+    }
+}
+
+.bg {
+    background-color: black;
+}
+
+.textcolor {
+    color: white;
+}
+
+.spacing a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.headLine {
+    font-size: 20px;
+}
+
+.middleline {
+    font-size: 40px;
+    margin: 45px 0px 25px 0px;
+}
+
+.linkline {
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 600px) {
+    .headLine {
+        font-size: 10px;
+    }
+
+    .middleline {
+        font-size: 20px;
+        margin: 45px 0px 25px 0px;
+    }
+
+    .linkline {
+        font-size: 9px;
+    }
+}
+
+
+.spacing {
+    vertical-align: middle;
+}
+
+.overlay {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 60px 60px;
+}
+
+@media only screen and (max-width: 600px) {
+    .overlay {
+        padding: 0px 0px 10px 10px;
+    }
+}
+
+.bg1 {
+    display: flex;
+    width: 100%;
+
+}
+
+
+.araaline p {
+    color: #00665e;
+}
+
+.araaline a {
+    color: #00665e;
+    text-decoration: none;
+}
+
+.araaline i {
+    margin-left: 10px;
+}
+
+.araaline .secondline {
+    font-size: 45px;
+}
+
+.araaline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cecd00;
+    padding: 50px 0px 50px 0px;
+}
+
+@media only screen and (max-width: 800px) {
+    .overlay {
+        padding: 0px 0px 10px 10px;
+    }
+
+    .araaline .secondline {
+        font-size: 20px;
+    }
+}
+
+.peopletext p {
+    color: white;
+}
+
+.peopletext a {
+    color: white;
+    text-decoration: none;
+}
+
+.peopletext i {
+    margin-left: 10px;
+}
+
+.peopletext .secondline {
+    font-size: 45px;
+}
+
+.peopletext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00665e;
+    padding: 50px 0px 50px 0px;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .peopletext .secondline {
+        font-size: 20px;
+    }
+}
+
+.bigstring p {
+    color: lightgray;
+    font-size: 8vw;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.hrline {
+    border-bottom: 2px solid black;
+    margin: 0 2.5vw;
+}
+
+.brandlogo {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    margin: 30px;
+}
+
+.brandlogo li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.brandlogo li img {
+    width: 100%;
+}
+
+.left {
+    position: relative;
+    left: -300px;
+    top: -200px;
+}
+
+.right {
+    position: relative;
+    right: -300px;
+    top: -200px;
+}
+
+
+
+@media only screen and (max-width: 1120px) {
+    .left {
+        left: -200px;
+        top: -250px;
+    }
+
+    .right {
+        right: -200px;
+        top: -250px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .left {
+        left: -150px;
+    }
+
+    .right {
+        right: -150px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .left {
+        left: -70px;
+    }
+
+    .right {
+        right: -70px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .left {
+        left: -50px;
+    }
+
+    .right {
+        right: -50px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .left {
+        left: -45px;
+    }
+
+    .right {
+        right: -45px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .brandlogo {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .brandlogo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.companylogo img {
+    width: 200px;
+}
+
+.companylogo a {
+    color: black;
+    text-decoration: none;
+}
+
+.companylogo {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 40px 20px 40px;
+}
+
+@media only screen and (max-width: 470px) {
+    .companylogo {
+        display: block;
+    }
+
+    .remove {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.bg2 {
+    background-image: url("assetsF1Team/asset\ 47.png");
+    background-color: #22332b;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+.corosolsize {
+    padding: 0px 200px;
+}
+
+.infobox {
+    max-width: 500px;
+}
+
+.readstyle a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.readstyle i {
+    margin-left: 10px;
+    font-size: 12px;
+}
